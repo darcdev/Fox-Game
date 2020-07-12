@@ -1,0 +1,22 @@
+{
+  "name": "fox-game",
+  "version": "1.0.0",
+  "description": "Frontend Project : Build a Game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcdev/Fox-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darcdev/Fox-Game/issues"
+  },
+  "homepage": "https://github.com/darcdev/Fox-Game#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
