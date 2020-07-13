@@ -3,9 +3,9 @@ import { TICK_RATE } from "./constants";
 import initButtons from "./buttons";
 
 async function init() {
-  let nextTimeToTick = Date.now();
   initButtons(handleUserAction);
 
+  let nextTimeToTick = Date.now();
   function nextAnimationFrame() {
     const now = Date.now();
 
@@ -15,6 +15,6 @@ async function init() {
     }
     requestAnimationFrame(nextAnimationFrame);
   }
-  requestAnimationFrame(nextAnimationFrame);
+  nextAnimationFrame();
 }
 init();

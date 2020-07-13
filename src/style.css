@@ -74,12 +74,13 @@ body {
   top: 300px;
   left: 160px;
 }
-
 .modal {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
+}
+.modal-inner {
   background-color: blueviolet;
   color: white;
   padding: 25px;
